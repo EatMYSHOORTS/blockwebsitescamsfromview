@@ -1,0 +1,7 @@
+{
+    "policies": {
+        "Block": [
+            "https://download.cnet.com/"
+        ]
+    }
+}

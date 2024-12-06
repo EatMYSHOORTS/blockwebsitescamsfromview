@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Website Blocker",
     "description": "Blocks certain scam websites",
-    "version": "1.0",
+    "version": "2",
     "permissions": [
       "tabs",
       "webNavigation",

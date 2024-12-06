@@ -20,5 +20,7 @@ if exist "%gx_path%" (
 ) else (
     echo Opera GX is not installed. No action taken.
 )
-
+echo Flushing DNS cache...
+ipconfig /flushdns
+echo DNS cache has been successfully flushed.
 pause

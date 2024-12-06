@@ -12,4 +12,7 @@ netsh advfirewall firewall add rule name="Block %domain% Outbound" dir=out actio
 netsh advfirewall firewall add rule name="Block %domain% IPv6 Outbound" dir=out action=block remoteip=%ip2%
 
 echo Website %domain% blocked!
+echo Flushing DNS cache...
+ipconfig /flushdns
+echo DNS cache has been successfully flushed.
 pause

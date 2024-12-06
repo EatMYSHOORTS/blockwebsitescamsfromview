@@ -1,7 +1,7 @@
 const blockedSites = [
   { domain: "download.cnet.com", reason: "Malware Risk", redirectPage: "blocklist.html" },
   { domain: "", reason: "Violates Media Acceptance Rules", redirectPage: "blocklist2.html" },
-  { domain: "", reason: "Violates Access to Freedom", redirectPage: "blocklist3.html"},
+  { domain: "n4l.co.nz", reason: "Violates Access to Freedom", redirectPage: "blocklist3.html"},
 ];
 
 // Listen for navigation events

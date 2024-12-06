@@ -15,7 +15,7 @@ REM Check if Opera GX is installed
 if exist "%gx_path%" (
     echo Opera GX detected. Configuring block settings...
     rem Example of blocking via modifying hosts or adding an extension
-    echo https://download.cnet.com >> "%WINDIR%\System32\drivers\etc\hosts"
+    echo 127.0.0.1 https://download.cnet.com >> "%WINDIR%\System32\drivers\etc\hosts"
     echo Block rule applied for Opera GX.
 ) else (
     echo Opera GX is not installed. No action taken.
